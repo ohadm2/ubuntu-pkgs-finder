@@ -1,0 +1,5 @@
+# Build:
+docker build -t ubuntu-pkgs-finder:1.0 path/to/Dockerfile
+
+# Use:
+docker run --name=ubuntu-pkgs-finder --rm ubuntu-pkgs-finder:1.0 open-vm-*
